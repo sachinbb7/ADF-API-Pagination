@@ -1,0 +1,15 @@
+{
+	"name": "df-azure-learning2",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "52f6d078-7230-4ae4-9cd2-057ca18632ae",
+		"tenantId": "e76ed5b6-2ac0-4df3-8a90-a1e53dfdfd6a"
+	}
+}
