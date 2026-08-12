@@ -56,10 +56,6 @@
 							"QueryParameters.offset": {
 								"value": "RANGE:0:@{activity('Rest API').output.count}:20",
 								"type": "Expression"
-							},
-							"QueryParameters.limit": {
-								"value": "RANGE:0:@{activity('Rest API').output.count}:20",
-								"type": "Expression"
 							}
 						}
 					},
