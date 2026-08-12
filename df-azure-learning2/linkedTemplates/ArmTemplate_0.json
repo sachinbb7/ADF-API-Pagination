@@ -82,7 +82,7 @@
 				"type": "RestResource",
 				"typeProperties": {
 					"relativeUrl": {
-						"value": "?offset={offset}?limit={limit}",
+						"value": "?offset={offset}",
 						"type": "Expression"
 					}
 				},
